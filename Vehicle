@@ -1,12 +1,11 @@
   public class Vehicle{
  
-    public String Vehicle(){
-      return "I am a vehicle guitar!";
+    public String vehicle(){
+      return "I am a vehicle!";
 
       
     }
-    //This is an overloaded version of the Bass method, Java can tell the difference between the two depending on if you pass an int in as a parameter
-    public String bass(int wheels){
+    public String vehicle(int wheels){
       return "I am a car with " + wheels + " wheels!";
 }
 public String vehicle1(int wheels, String sound){
@@ -17,3 +16,4 @@ public String vehicle1(int wheels, String sound){
 }
 
 }
+ba
